@@ -1,8 +1,10 @@
+package BJ1차원배열;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Main {
+public class BJ3052 {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		Integer[] arr= new Integer[10];
@@ -20,5 +22,4 @@ public class Main {
 		
 		System.out.println(rArr.length);
 	}
-
 }
