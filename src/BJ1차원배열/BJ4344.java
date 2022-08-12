@@ -1,7 +1,9 @@
+package BJ1차원배열;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class BJ4344 {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		
@@ -32,6 +34,8 @@ public class Main {
 
 			stdavg=(double)std/b*100;
 			
+			System.out.println(al.get(2));
+			System.out.println(al.toString());
 			System.out.printf("%.3f%% \n",stdavg);
 			al.removeAll(al);
 		}
@@ -40,5 +44,4 @@ public class Main {
 		
 		
 	}
-
 }
