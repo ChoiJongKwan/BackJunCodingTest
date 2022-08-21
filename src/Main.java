@@ -7,7 +7,7 @@ public class Main {
 		int a= 'a';
 		int b=66;
 		
-		System.out.println(a+" "+(char)b);
+		System.out.println(a+" "+b);
 	}
 }
 
